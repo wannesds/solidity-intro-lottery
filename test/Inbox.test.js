@@ -14,5 +14,7 @@ class Car {
 }
 
 describe('Car', () => {
-    it('can park', ())
+    it('can park', () => {
+
+    });
 });
