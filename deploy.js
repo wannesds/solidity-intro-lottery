@@ -6,8 +6,8 @@ const { interface, bytecode } = require('./compile')
 //It will ONLY be used for development purposes so you'll only find fake Eth
 
 const provider = new HDWalletProvider(
-    'term meadow curious ability combine prize minimum come core dolphin timber cute',
-    'https://rinkeby.infura.io/v3/de5933d8420446749237aba293c34e5e'
+    MNEMONIC,
+    NODE_API
 )
 const web3 = new Web3(provider);
 
